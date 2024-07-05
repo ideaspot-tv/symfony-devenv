@@ -11,6 +11,7 @@ class FortuneController extends AbstractController
     #[Route('/', name: 'app_fortune')]
     public function index(): Response
     {
+        // fortunes from https://www.best-ever-cookie-collection.com/fortune-cookie-sayings.html
         $fortunes = [
             "Do not be afraid of competition.",
             "An exciting opportunity lies ahead of you.",
